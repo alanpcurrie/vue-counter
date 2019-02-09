@@ -19,5 +19,14 @@ module.exports = {
   testMatch: [
     '**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)'
   ],
+  collectCoverageFrom: ['src/*.vue'],
+  coverageThreshold: {
+    'global': {
+      'branches': 100,
+      'functions': 100,
+      'lines': 100,
+      'statements': 100
+    }
+  },
   testURL: 'http://localhost/'
 }
