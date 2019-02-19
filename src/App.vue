@@ -1,5 +1,6 @@
 <template>
   <div id='app'>
+    <h1>unit testing vue with jest</h1>
     <img src="./assets/logo.png">
     <Counter :multiplier="4"/>
   </div>
@@ -17,7 +18,7 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: Lobster, arial, helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
